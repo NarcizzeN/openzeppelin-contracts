@@ -35,7 +35,7 @@ contract Crowdsale is Context, ReentrancyGuard {
     uint256 private _rate;
 
     // Amount of wei raised
-    uint256 public _weiRaised;
+    uint256 private _weiRaised;
 
     /**
      * Event for token purchase logging
